@@ -17,3 +17,8 @@ After compilation, you can run the server:
 ```bash
 ./myserver
 ```
+
+## Test
+
+By using curl or applications like Insomnia or Postman, you can create a GET request to http://localhost:8080.
+For each request, you'll get unix time as a response, If you send multiple requests, you can see how multiple request can be handled with POSIX by getting response with same unix timestamp.
